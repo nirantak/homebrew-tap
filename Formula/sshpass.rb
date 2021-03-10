@@ -5,6 +5,8 @@ class Sshpass < Formula
   version "1.09"
   url "https://sourceforge.net/projects/sshpass/files/sshpass/#{version}/sshpass-#{version}.tar.gz"
   sha256 "71746e5e057ffe9b00b44ac40453bf47091930cba96bbea8dc48717dedc49fb7"
+  desc "sshpass is a tool for non-interactivly performing password authentication with SSH"
+  license "GPL-2.0-only"
 
   depends_on "gnu-sed"
 
