@@ -2,7 +2,7 @@ require 'formula'
 
 class SSHpass < Formula
   homepage 'https://sourceforge.net/projects/sshpass'
-  version 1.09
+  version '1.09'
   url "https://sourceforge.net/projects/sshpass/files/sshpass/#{version}/sshpass-#{version}.tar.gz"
   sha256 '71746e5e057ffe9b00b44ac40453bf47091930cba96bbea8dc48717dedc49fb7'
 
